@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="website icon" type="jpg" href="img/p.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Voting System - Registration</title>
+    <link href="../css/register.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <!--Heading-->
+      <div class="topnav">
+        <h1>Online Voting System</h1>
+      </div>
+
+      <!--Form-->
+      <div class="formsection">
+        <form action="#">
+          <h3>Registration</h3>
+
+          <input
+            class="field1"
+            type="text"
+            name="name"
+            placeholder="Enter name"
+          />&nbsp;&nbsp;&nbsp;&nbsp;
+          <input
+            class="field2"
+            type="number"
+            name="mobile"
+            placeholder="Enter mobile"
+          />&nbsp;&nbsp;&nbsp;&nbsp; <br /><br />
+
+          <input
+            class="field3"
+            type="password"
+            name="password"
+            placeholder="Enter password"
+          />&nbsp;&nbsp;&nbsp;&nbsp;
+          <input
+            class="field4"
+            type="password"
+            name="password"
+            placeholder="Confirm password"
+          />&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+          <input
+            class="add"
+            type="text"
+            name="address"
+            placeholder="Enter address"
+          />&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
+
+          <div class="roles">
+            Select role:&nbsp;&nbsp;
+            <select class="role" name="role" type="text">
+              <option value="1">Voter</option>
+              <option value="1">Group</option>
+            </select>
+          </div>
+          <br /><br />
+
+          <div class="image">
+            <label for="file-upload"> Upload image:&nbsp;&nbsp; </label>
+            <input class="file" type="file" name="photo" id="file-upload" />
+          </div>
+
+          <button id="btn">Register</button><br /><br />
+
+          <span class="click">
+            Already user?<a href="/index.html" class="link">Login here</a>
+          </span>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
