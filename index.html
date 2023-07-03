@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="website icon" type="jpg" href="img/p.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Voting System</title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <!--Heading-->
+      <div class="topnav">
+        <h1>Online Voting System</h1>
+      </div>
+
+      <!--Form-->
+      <div class="formsection">
+        <form class="form" method="post" action="/submit-form">
+          <h3>Login</h3>
+          <br />
+          <input
+            type="number"
+            name="mobile"
+            placeholder="Enter mobile"
+          /><br /><br />
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter password"
+          /><br />
+          <br />
+          <select id="role" name="role">
+            <br /><br />
+            <option value="1">Voter</option>
+            <option value="2">Group</option></select
+          ><br /><br />
+          <button id="login">Login</button><br /><br />
+          <span class="click"
+            >New user?
+            <a href="routes/register.html" class="link">Register here</a></span
+          >
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
