@@ -16,7 +16,7 @@
 
       <!--Form-->
       <div class="formsection">
-        <form action="#">
+        <form action="../api/register.php" method="POST">
           <h3>Registration</h3>
 
           <input
@@ -41,7 +41,7 @@
           <input
             class="field4"
             type="password"
-            name="password"
+            name="cpassword"
             placeholder="Confirm password"
           />&nbsp;&nbsp;&nbsp;&nbsp;<br /><br />
           <input
@@ -55,20 +55,20 @@
             Select role:&nbsp;&nbsp;
             <select class="role" name="role" type="text">
               <option value="1">Voter</option>
-              <option value="1">Group</option>
+              <option value="2">Group</option>
             </select>
           </div>
           <br /><br />
 
           <div class="image">
-            <label for="file-upload"> Upload image:&nbsp;&nbsp; </label>
+            <label for="file-upload"> Upload image &nbsp;&nbsp; </label>
             <input class="file" type="file" name="photo" id="file-upload" />
           </div>
 
           <button id="btn">Register</button><br /><br />
 
           <span class="click">
-            Already user?<a href="/index.html" class="link">Login here</a>
+            Already user?<a href="../index.html" class="link">Login here</a>
           </span>
         </form>
       </div>
