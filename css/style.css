@@ -15,7 +15,7 @@ body {
 .topnav h1 {
   color: #000000;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   margin: 0;
   text-decoration: none;
   font-size: 40px;
@@ -37,8 +37,8 @@ body {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 550px;
-  height: 550px;
+  width: 420px;
+  height: 500px;
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -57,7 +57,7 @@ h3 {
   color: black;
 }
 input {
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 15px;
@@ -69,7 +69,7 @@ input:focus {
 }
 
 #role {
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 15px;
@@ -88,7 +88,7 @@ input:focus {
     #8fd3f4 51%,
     #84fab0 100%
   );
-  padding: 15px 40px;
+  padding: 10px 35px;
   border-radius: 5px;
   border: none;
   font-size: 20px;
@@ -105,7 +105,7 @@ input:focus {
 #login:hover {
   background-position: right center;
   cursor: pointer;
-
+  transform: scale(1.2);
   background-image: linear-gradient(
     to right,
     #009245,
@@ -119,7 +119,7 @@ input:focus {
 }
 
 .click {
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 

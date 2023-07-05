@@ -15,7 +15,7 @@ body {
 .topnav h1 {
   color: #000000;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
   margin: 0;
   text-decoration: none;
   font-size: 40px;
@@ -37,8 +37,8 @@ body {
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 700px;
-  height: 650px;
+  width: 600px;
+  height: 580px;
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -54,14 +54,14 @@ body {
 h3 {
   margin-bottom: 20px;
   padding: 15px;
-  font-size: 40px;
+  font-size: 35px;
   color: black;
 }
 
 .field1,
 .field2 {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 15px;
@@ -70,7 +70,7 @@ h3 {
 .field3,
 .field4 {
   display: inline-block;
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 15px;
@@ -81,7 +81,7 @@ input:focus {
 }
 
 .add {
-  padding: 15px;
+  padding: 10px;
   border-radius: 5px;
   border: none;
   font-size: 15px;
@@ -103,7 +103,7 @@ input:focus {
 }
 
 .role {
-  font-size: 20px;
+  font-size: 15px;
   border: none;
   padding: 10px;
   border-radius: 5px;
@@ -134,7 +134,7 @@ input:focus {
 
 .image label {
   display: inline-block;
-  padding: 15px 35px;
+  padding: 12px 35px;
   border-radius: 5px;
   background-color: #fff;
   color: #000;
@@ -156,7 +156,7 @@ input:focus {
     #8fd3f4 51%,
     #84fab0 100%
   );
-  padding: 15px 40px;
+  padding: 10px 35px;
   border-radius: 5px;
   border: none;
   font-size: 20px;
@@ -173,7 +173,7 @@ input:focus {
 #btn:hover {
   background-position: right center;
   cursor: pointer;
-
+  transform: scale(1.2);
   background-image: linear-gradient(
     to right,
     #009245,
@@ -186,7 +186,7 @@ input:focus {
 }
 
 .click {
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
